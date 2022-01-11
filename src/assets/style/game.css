@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d3dedc;
+  text-align: center;
+  color: #4f697b;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #90abbd;
+}
+
+.header p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #4f697b;
+}
+
+.message-container p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #87a4b8
+}
+
+.weapons-container {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+}
+
+.weapons {
+  padding: 80px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weapons-container img {
+  width: 230px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.weapons-container img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.game img {
+  width: 300px;
+}
+
+.rotated-right {
+  transform: rotate(90deg);
+}
+
+.rotated-left {
+  transform: rotate(270deg);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e6e2e2;
+  border: 10px solid #90abbd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal button {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  border: none;
+  cursor: pointer;
+  background-color: #4f697b;
+}
+
+button {
+  padding: 8px 22px;
+  background-color: #4f697b;
+  color: #d3dedc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #667f91;
+}
+
